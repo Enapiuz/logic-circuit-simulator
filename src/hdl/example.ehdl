@@ -1,0 +1,6 @@
+IN: Data, 16
+IN: WriteFlag, 1
+CHIP: Cell, MemoryCell, 16
+CONN: Data[1..16](0) -> Cell[1..16](0)
+CONN: WriteFlag[1](0) -> Cell[1..16](1)
+OUT: Cell[1..16](0)
